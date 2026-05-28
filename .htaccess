@@ -1,2 +1,4 @@
 RewriteEngine On
-RewriteRule ^([0-9A-Za-z-_]+)$ /$1.html
+
+# Redireciona /links-bio/ para /links-bio.html
+RewriteRule ^links-bio/?$ /links-bio.html [R=301,L]
